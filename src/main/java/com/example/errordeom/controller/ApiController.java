@@ -17,8 +17,8 @@ public class ApiController {
 
  public HashMap<String, Object> get(@RequestParam String name) {
   HashMap<String, Object> map = new HashMap<String, Object>(); 
-  map.put("title", "hello 地");
+  map.put("title", "天天都是哈喽地球");
   map.put("name", name); 
   return map; 
  } 
-} 
+}
